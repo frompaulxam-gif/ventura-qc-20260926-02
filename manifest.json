@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "code": "01",
+      "brand": "Desktop \u00b7 First impression",
+      "variants": [
+        {
+          "id": "01-ref",
+          "label": "Original",
+          "reference": true,
+          "source": "original/",
+          "width": 1440,
+          "height": 900,
+          "image": "media/01-ref.png"
+        },
+        {
+          "id": "01-new",
+          "label": "New",
+          "reference": false,
+          "source": "preview/",
+          "width": 1440,
+          "height": 900,
+          "image": "media/01-new.png"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "brand": "Desktop \u00b7 Services",
+      "variants": [
+        {
+          "id": "02-ref",
+          "label": "Original",
+          "reference": true,
+          "source": "original/#everyday",
+          "width": 1440,
+          "height": 833,
+          "image": "media/02-ref.png"
+        },
+        {
+          "id": "02-new",
+          "label": "New",
+          "reference": false,
+          "source": "preview/#services",
+          "width": 1280,
+          "height": 1633,
+          "image": "media/02-new.png"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "brand": "Motion",
+      "variants": [
+        {
+          "id": "03-ref",
+          "label": "Original",
+          "reference": true,
+          "source": "original/",
+          "width": 1280,
+          "height": 900,
+          "video": "media/03-ref.mp4",
+          "poster": "media/03-ref-poster.jpg"
+        },
+        {
+          "id": "03-new",
+          "label": "New",
+          "reference": false,
+          "source": "preview/",
+          "width": 1280,
+          "height": 900,
+          "video": "media/03-new.mp4",
+          "poster": "media/03-new-poster.jpg"
+        }
+      ]
+    }
+  ]
+}
